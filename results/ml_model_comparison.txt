@@ -1,0 +1,28 @@
+PRODUCT REVIEW SENTIMENT CLASSIFICATION
+Dataset: XMarket Cross-Market Product Reviews
+Training sample: 120,000 reviews
+Train-test split: 80:20
+
+Sentiment distribution:
+Positive: 91,760
+Neutral: 8,614
+Negative: 19,626
+
+MODEL COMPARISON
+
+Multinomial Naive Bayes:
+Accuracy: 0.7616 (76.16%)
+Weighted F1: 0.7796 (77.96%)
+
+Logistic Regression:
+Accuracy: 0.8331 (83.31%)
+Weighted F1: 0.8193 (81.93%)
+
+Best performing model:
+Logistic Regression
+
+Feature extraction:
+Regex Tokenizer, Stop Words Removal, HashingTF and IDF (TF-IDF).
+
+Framework:
+Apache Spark MLlib

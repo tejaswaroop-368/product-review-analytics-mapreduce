@@ -1,0 +1,13 @@
+# Large datasets
+dataset/
+
+# Python virtual environment
+spark-env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Hadoop temporary files
+*.crc
